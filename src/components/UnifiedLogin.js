@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Lock, Eye, EyeOff, Shield, Users, Settings } from 'lucide-react';
+import { Lock, Eye, EyeOff, Shield } from 'lucide-react';
 
 const UnifiedLogin = ({ onLogin }) => {
   const [password, setPassword] = useState('');
