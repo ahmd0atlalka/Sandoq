@@ -73,6 +73,14 @@ const StudentCard = ({ student, onConfirmAttendance, onConfirmCheck, isLoading }
               <p className="font-semibold text-gray-800">{student.city || 'غير متوفر'}</p>
             </div>
           </div>
+  
+   <div className="flex items-center p-3 bg-gray-50 rounded-lg">
+            <MapPin className="w-5 h-5 text-primary-600 ml-3" />
+            <div>
+              <p className="text-sm text-gray-500">رقم الطاولة</p>
+              <p className="font-semibold text-gray-800">{student.Code || 'غير متوفر'}</p>
+            </div>
+          </div>
         </div>
 
         {/* Status Indicators */}
